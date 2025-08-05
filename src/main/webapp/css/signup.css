@@ -1,0 +1,49 @@
+.login-container {
+    max-width: 800px;
+    background: #fff;
+    display: flex;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.login-left {
+    color: white;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.login-left i {
+    font-size: 100px;
+}
+
+.login-right {
+    background: #2c2c2c;
+    color: white;
+    width: 60%;
+    padding: 40px;
+}
+
+.form-control::placeholder {
+    color: #aaa;
+}
+
+.form-check-label {
+    color: white;
+}
+
+.form-link {
+    float: right;
+    color: #ddd;
+    font-size: 0.9em;
+    margin-top: 8px;
+}
+
+.form-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
